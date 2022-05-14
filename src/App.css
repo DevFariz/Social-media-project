@@ -26,47 +26,5 @@ ul, li{
   gap: 5px 15px;
 }
 
-.header{
-  grid-column: span 10;
-  background-color: #B4F8C8;
-  padding: 15px 40px;
-  border-bottom: 2px solid rgb(214, 191, 189);
-}
 
-.header__logo{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
 
-.nav{
-  grid-column: span 2;
-  background-color: #A0E7E5;
-}
-
-.menu{
-  margin-top: 25px;
-}
-
-.menu__item{
-  font-size: 24px;
-  padding: 5px 15px;
-}
-
-.menu__link{
-  display: block;
-  transition: 0.2s;
-}
-
-.menu__link:hover{
-  color: #867578;
-}
-
-.main{
-  grid-column: span 8;
-  background-color: #FBE7C6;
-}
-
-.content__img{
-  width: 100%;
-}

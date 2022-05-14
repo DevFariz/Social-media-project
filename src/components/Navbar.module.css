@@ -1,0 +1,26 @@
+.nav{
+  grid-column: span 2;
+  background-color: #A0E7E5;
+}
+
+.menu{
+  margin-top: 25px;
+}
+
+.item{
+  font-size: 24px;
+  padding: 5px 15px;
+}
+
+.link{
+  display: block;
+  transition: 0.2s;
+}
+
+.link:hover{
+  color: #867578;
+}
+
+.link.active{
+  color: #867578;
+}

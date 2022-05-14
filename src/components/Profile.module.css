@@ -1,0 +1,13 @@
+.main{
+  grid-column: span 8;
+  background-color: #FBE7C6;
+}
+
+.content__img{
+  width: 100%;
+}
+
+.item{
+  font-size: 24px;
+  color: red;
+}

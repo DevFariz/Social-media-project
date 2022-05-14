@@ -1,0 +1,12 @@
+.header{
+  grid-column: span 10;
+  background-color: #B4F8C8;
+  padding: 15px 40px;
+  border-bottom: 2px solid rgb(214, 191, 189);
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
