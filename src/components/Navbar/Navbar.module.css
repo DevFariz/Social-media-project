@@ -1,6 +1,7 @@
 .nav{
   grid-column: span 2;
   background-color: #A0E7E5;
+  height: 650px;
 }
 
 .menu{
