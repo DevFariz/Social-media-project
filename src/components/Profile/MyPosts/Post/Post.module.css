@@ -1,6 +1,8 @@
 .item{
   font-size: 24px;
   color: red;
+  display: flex;
+  align-items: center;
 }
 
 .item img{
