@@ -27,4 +27,8 @@ ul, li{
 }
 
 
+.wrapper-content{
+  grid-column: span 8;
+  background-color: #FBE7C6;
+}
 
