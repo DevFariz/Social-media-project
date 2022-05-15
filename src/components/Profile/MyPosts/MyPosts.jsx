@@ -3,15 +3,17 @@ import Post from "./Post/Post";
 
 const MyPosts = () => {
   return (
-    <div>
-      My posts
+    <div className={classes.postsContainer}>
+      <h2>My posts</h2>
       <div>
-        <textarea ></textarea>
+        <div>
+          <textarea></textarea>
+        </div>
         <button>Add post</button>
       </div>
       <div className={classes.posts}>
-        <Post message="Hello John" likesCount="15"/>
-        <Post message="Hi David" likesCount="10"/>
+        <Post message="Hello John" likesCount="15" />
+        <Post message="Hi David" likesCount="10" />
       </div>
     </div>
   );
