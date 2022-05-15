@@ -7,29 +7,51 @@ const Navbar = () => {
       <ul className={classes.menu}>
         <li className={classes.item}>
           <NavLink
-           className={({isActive}) => isActive ? classes.active : classes.link}
-            to="/profile"
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.link
+            }
+            to="/"
           >
             Profile
           </NavLink>
         </li>
         <li className={classes.item}>
-          <NavLink  className={({isActive}) => isActive ? classes.active : classes.link} to="/dialogs">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.link
+            }
+            to="/dialogs"
+          >
             Messages
           </NavLink>
         </li>
         <li className={classes.item}>
-          <NavLink className={({isActive}) => isActive ? classes.active : classes.link} to="/news">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.link
+            }
+            to="/news"
+          >
             News
           </NavLink>
         </li>
         <li className={classes.item}>
-          <NavLink className={({isActive}) => isActive ? classes.active : classes.link} to="/music">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.link
+            }
+            to="/music"
+          >
             Music
           </NavLink>
         </li>
         <li className={classes.item}>
-          <NavLink className={({isActive}) => isActive ? classes.active : classes.link} to="/settings">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.link
+            }
+            to="/settings"
+          >
             Settings
           </NavLink>
         </li>
