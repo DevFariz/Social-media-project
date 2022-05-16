@@ -5,21 +5,18 @@
     font-size: 20px;
 }
 
-/* .dialogsItems{
-
+.dialogItemContainer{
+    display: flex;
+    align-items: center;
 }
 
-dialog{
-
+.dialogItemAva{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
-
-.messages{
-
-}
-
-.message{
-
-} */
 
 .active{
     color: red;
